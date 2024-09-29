@@ -1,7 +1,7 @@
 /* Estilo adicional para ajustar as seções */
 .hero {
     height: 100vh;
-    background: url('/fotos/Pngtreesummer\ atmosphere\ restaurant\ supermarket\ vegetable_1098004.jpg') no-repeat center center/cover;
+    background: url('../fotos/Pngtreesummer\ atmosphere\ restaurant\ supermarket\ vegetable_1098004.jpg') no-repeat center center/cover;
     display: flex;
     text-align: center;
 }

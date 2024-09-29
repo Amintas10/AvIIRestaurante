@@ -1,0 +1,74 @@
+/* Estilo adicional para ajustar as seções */
+.hero {
+    height: 100vh;
+    background: url('/fotos/Pngtreesummer\ atmosphere\ restaurant\ supermarket\ vegetable_1098004.jpg') no-repeat center center/cover;
+    display: flex;
+    text-align: center;
+}
+
+.depoimentos {
+    padding: 80px 0;
+    position: relative;
+    z-index: 1;
+}
+
+footer {
+    padding: 30px 0;
+    background-color: #343a40;
+    color: #fff;
+}
+
+/* Para garantir que o carrossel de depoimentos tenha um bom espaçamento */
+.carousel-inner {
+    padding-bottom: 40px; /* Adiciona espaço abaixo dos comentários */
+}
+
+.carousel-item blockquote {
+    font-size: 1.2rem;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-left: 5px solid #007bff;
+}
+
+.carousel-item footer {
+    margin-top: 10px;
+    font-style: italic;
+}
+.ajuste{
+    margin-top: 160px;
+}
+.hero > .container > h1{
+    font-size: 6rem;
+}
+.hero > .container > p{
+    font-size: 2rem;
+}
+.hero > .container > a{
+    width: 30vw;
+    font-size: 3rem;
+    background-color: rgba(3, 198, 3, 0.509);
+    border: black 3px solid;
+    color: white;
+}
+.hero > .container > a:hover{
+    background-color: rgba(8, 255, 8, 0.528);
+    
+}
+@media (max-width:927px){
+    .ajuste{
+        margin-top: 200px;
+    }
+    .hero > .container > h1{
+        font-size: 3rem;
+    }
+    .hero > .container > p{
+        font-size: 1rem;
+    }
+    .hero > .container > a{
+        width: 30vw;
+        font-size: 1rem;
+        background-color: rgba(3, 198, 3, 0.509);
+        border: black 3px solid;
+        color: white;
+    }
+}
